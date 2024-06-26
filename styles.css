@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    font-size: 14px;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    min-width: 665px;
+}
+
+.navbar-brand > span::after{
+    content: "M5";
+    color: #C46825;
+}
+
+.navbar-brand > span{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+/*  */
+
+.banner{
+    width: 100vw;
+    height: 100vh;
+    min-width: 665px;
+    position: relative;
+}
+
+.banner > img{
+    width: 100vw;
+    height: 100vh;
+    min-width: 665px;
+}
+
+/* --------------------------------------------------------services section--------------------------------------------- */
+
+.text-title{
+    font-weight: 200 !important;
+    font-size: calc(3.5rem + 1vw)
+}
+    
+.text{
+    position: absolute;
+    top: 150px;
+    left: 30%;
+    text-wrap: nowrap;
+}
+
+.des{
+    font-size: 1.2rem;
+}
+
+.item{
+    margin-top: 60px;
+    line-height: 1.7rem;
+    height: 380px;
+    overflow: hidden;
+    min-width: 350px;
+}
+
+.item > img{
+    height: 150px;
+}
+
+.services{
+    background-color: bisque;
+    min-width: 665px;
+}
+
+/* --------------------------------------------------Execute Idea-------------------------------------------- */
+
+h1{
+    color: rgb(11, 11, 50);
+}
+
+.execute{
+    min-width: 665px;
+}
+
+.execute-p > button{
+    background-color: rgb(11, 11, 50);
+    color: white;
+    border-radius: 30px;
+    padding: 5px 15px;
+    border: none;
+}
+
+/* -----------------------------------footer section---------------------------------- */
+footer{
+    background-color: bisque;
+    color: rgb(11, 11, 50);
+    min-width: 665px;
+}
+
+.num-container{
+    border: 1px solid rgb(241, 158, 55);
+    text-align: center;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(241, 158, 55);
+}
